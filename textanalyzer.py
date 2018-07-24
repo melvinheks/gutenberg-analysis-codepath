@@ -64,7 +64,7 @@ class TextAnalyzer():
                 return chapter
         return -1
     def generateSentence(self):
-        word = "the"
+        word = "The"
         sentence = word
         choices = self.chain
         for i in range(20):
@@ -77,6 +77,6 @@ print(thingy.getTotalUniqueWords())
 print(thingy.get20MostFrequentWords())
 print(thingy.get20MostInterestingFrequentWords())
 print(thingy.get20LeastFrequentWords())
-print(thingy.getFrequencyOfWord("great"))
+print(thingy.getFrequencyOfWord("devil"))
 print(thingy.getChapterQuoteAppears("tamper with their princesses"))
 print(thingy.generateSentence())
